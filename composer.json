@@ -1,0 +1,22 @@
+{
+    "name": "arturmazanik/laravel-sail-php8.1-ubuntu-20-oci8",
+    "description": "Sail 8.1 with ubuntu 20.04 with OCI8 and without PostgresSQL",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Artur Mazanik",
+            "email": "mazanik.artur@ya.ru"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0",
+        "illuminate/contracts": "^8.0|^9.0",
+        "illuminate/console": "^8.0|^9.0",
+        "illuminate/support": "^8.0|^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ArturMazanik\\SailUbuntu20oci8\\": "src/"
+        }
+    }
+}
