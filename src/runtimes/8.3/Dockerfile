@@ -48,6 +48,7 @@ RUN apt-get update \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
+
 RUN if [ ${XDEBUG} ] ; then \
     apt-get install -y php-xdebug \
     && echo "[XDebug]" > /etc/php/8.0/cli/php.ini \
